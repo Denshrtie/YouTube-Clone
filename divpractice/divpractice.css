@@ -1,0 +1,229 @@
+p {
+  font-family: Arial;
+}
+
+.red {
+  background-color: red;
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+}
+
+.green {
+  background-color: green;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.feedback {
+  border-color: gray;
+  border-style: solid;
+  padding-top: 0px;
+  padding-bottom: 18px;
+  padding-left: 16px;
+  width: 300px;
+  border-width: 1px;
+  border-color:rgb(182, 182, 182);
+}
+
+.youtube {
+  background-color: rgb(40, 40, 40);
+  border:none;
+  width: 390px;
+}
+
+.installyt {
+  color: white;
+  font-weight: bold;
+  padding-top: 20px;
+  padding-left: 15px;
+}
+
+.addytmusic {
+  width: 370px;
+  color: rgb(146, 146, 146);
+  padding-left: 15px;
+  padding-bottom: 20px;
+}
+
+.kafka {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 25px;
+  vertical-align: middle;
+  padding-right: 5px;
+}
+
+.status {
+  font-size: 16px;
+  width: 250px;
+  border: none;
+  padding-left: 6px;
+}
+
+.tweet {
+  font-size: 16px;
+  background-color: rgb(29 161 242);
+  border: none;
+  color: white;
+  padding-left: 14px;
+  padding-right: 14px;
+  text-align: center;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  font-weight: bold;
+  border-radius: 18px;
+}
+
+.twitter {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 12px;
+  width: 415px;
+  box-shadow: 1px 1px 5px rgb(177, 177, 177), -0.5px -0.5px 1px rgb(226, 226, 226);
+  border-radius: 8px;
+}
+
+.name1, .mutual1 {
+  padding-left: 10px;
+}
+
+.name1 {
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.mutual1 {
+  margin-top: -15px;
+  color: gray;
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+
+.guoba {
+  width: 200px;
+}
+
+.fbpage1 {
+  width: 200px;
+  box-shadow: 1px 1px 5px rgb(177, 177, 177), -0.5px -0.5px 1px rgb(226, 226, 226);
+  display: inline-block;
+}
+
+.addfriend1 {
+  background-color:  rgb(29, 111, 204);
+  color: white;
+  border: none;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 4px;
+}
+
+.fbpage1 {
+  width: 200px;
+  box-shadow: 1px 1px 5px rgb(177, 177, 177), -0.5px -0.5px 1px rgb(226, 226, 226);
+  margin-left: 15px;
+}
+
+.googol {
+  text-align: center;
+}
+
+.google-logo {
+  margin: auto;
+  display: block;
+  margin-bottom: 15px;
+  width: 200px;
+}
+
+.search-box3 {
+  margin: auto;
+  display: block;
+  width: 460px;
+  border:none;
+  border-radius: 24px;
+  box-shadow: 1px 1px 5px rgb(177, 177, 177), -0.5px -0.5px 1px rgb(226, 226, 226);
+  font-size: 15px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-left: 17px;
+}
+
+.google-search {
+  margin-left: 8px;
+  display: inline-block;
+  text-align: center;
+  margin-top: 36px;
+  font-size: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: none;
+  background-color: rgb(231, 231, 231);
+}
+
+.fbpages1 {
+  width: 200px;
+  box-shadow: 1px 1px 5px rgb(177, 177, 177), 
+  -0.5px -0.5px 1px rgb(226, 226, 226);
+}
+
+.profile-pic1 {
+  width: 200px;
+}
+
+.pfp-info {
+  margin-left: 10px;
+}
+
+.mutual-pic {
+  width: 30px;
+  border-radius: 15px;
+}
+
+.names {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.circle-mutual {
+  align-items: center;
+  display: flex;
+  margin-top: -10px;
+}
+
+.moots {
+  color: gray;
+  font-size: 15px;
+  margin-left: 7px;
+}
+
+.add-fr1 {
+  font-size: 17px;
+  background-color: rgb(29, 111, 204);
+  color: white;
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 4px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.fbpages1 {
+  margin-top: 100px;
+}

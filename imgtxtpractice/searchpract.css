@@ -1,0 +1,211 @@
+p {
+  font-family: Arial;
+  margin-bottom: 0px;
+}
+
+.search-box1 {
+  font-size: 20px;
+  width: 210px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-left: 17px;
+  border-style: solid;
+  border-radius: 8px;
+  border-width: 1px;
+  border-color: rgb(159, 159, 159);
+  cursor: pointer;
+}
+
+.search-box2 {
+  margin-left: 20px;
+  width: 460px;
+  border:none;
+  border-radius: 24px;
+  box-shadow: 1px 1px 5px rgb(177, 177, 177), -0.5px -0.5px 1px rgb(226, 226, 226);
+  font-size: 15px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-left: 17px;
+}
+
+.email {
+  font-size: 15px;
+  color: rgb(119, 118, 118);
+  margin-bottom: 8px;
+}
+
+.email-box {
+  width: 370px;
+  height: 27px;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 4px;
+}
+
+.termsandconditions {
+  font-size: 15px;
+  color: rgb(119, 118, 118);
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.terms {
+  font-size: 18px;
+  text-align: center;
+  border: none;
+  background-color: rgb(38, 106, 208);
+  color: white;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 137px;
+  padding-right: 137px;
+  border-radius: 42px;
+}
+
+.kafka {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 25px;
+  vertical-align: middle;
+}
+
+.status {
+  font-size: 16px;
+  width: 250px;
+  border: none;
+  padding-left: 6px;
+}
+
+.tweet {
+  font-size: 16px;
+  background-color: rgb(29 161 242);
+  border: none;
+  color: white;
+  padding-left: 14px;
+  padding-right: 14px;
+  text-align: center;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  font-weight: bold;
+  border-radius: 18px;
+}
+
+.name-box, .email-bar {
+  display: block;
+}
+
+.email-bar {
+  margin-top: 6px;
+}
+
+.customersupp {
+  font-family: 'Times New Roman';
+  width: 200px;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.yesbut, .nobut {
+  cursor: pointer;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.google-logo {
+  margin: auto;
+  display: block;
+  margin-bottom: 15px;
+  width: 200px;
+}
+
+.search-box3 {
+  margin: auto;
+  display: block;
+  width: 460px;
+  border:none;
+  border-radius: 24px;
+  box-shadow: 1px 1px 5px rgb(177, 177, 177), -0.5px -0.5px 1px rgb(226, 226, 226);
+  font-size: 15px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-left: 17px;
+}
+
+.firstname, .firstname2 {
+  display: inline-block;
+  width: 110px;
+  padding-left: 12px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-width: 0.1px;
+  border-style: solid;
+  border-color: rgb(193, 193, 193);
+  border-radius: 6px;
+}
+
+.email-box2 {
+  margin-top: 8px;
+  display: block;
+  width: 240px;
+  padding-left: 12px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-width: 0.1px;
+  border-style: solid;
+  border-color: rgb(193, 193, 193);
+  border-radius: 6px;
+}
+
+.signup {
+  margin-top: 8px;
+  text-align: center;
+  background-color: rgb(0, 115, 223);
+  border: none;
+  padding-left: 103px;
+  padding-right: 103px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  color: white;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+.uber-req {
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+.pickup, .destination {
+  margin-bottom: 6px;
+  border: none;
+  display: block;
+  color: gray;
+  background-color:rgb(235, 235, 235);
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 14px;
+  padding-right: 130px;
+}
+
+.requestnow {
+  background-color: black;
+  color: white;
+}
+
+.schedule {
+  background-color: rgb(235, 235, 235);
+  color: black;
+  margin-left: 10px;
+}
+
+.requestnow, .schedule {
+  margin-top: 16px;
+  border: none;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  text-align: center;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+

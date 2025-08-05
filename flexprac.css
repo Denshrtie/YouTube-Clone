@@ -1,0 +1,404 @@
+body {
+  padding-bottom: 1000px;
+}
+
+.flexboxes {
+  margin-bottom: 0px;
+}
+
+.flexbox1 {
+  display: flex;
+  flex-direction: row;
+}
+
+.box1 {
+  background-color: lightblue;
+}
+
+.box2 {
+  background-color: lightpink;
+}
+
+.flexbox2 {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+}
+
+.box3 {
+  background-color: lightblue;
+  width: 50px;
+}
+
+.box4 {
+  background-color: lightpink;
+  flex: 1;
+}
+
+.box5 {
+  background-color: lightblue;
+  width: 75px;
+}
+
+.flexbox3 {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  justify-content: space-between;
+}
+
+.box6, .box7, .box8, .box9 {
+  background-color: lightpink;
+}
+
+.flexbox4 {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  justify-content: space-between;
+}
+
+.box10, .box11 {
+  background-color: lightpink;
+}
+
+.flexbox5 {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  justify-content: space-between;
+  border-width: 1px;
+  border-color: gray;
+  border-style: solid;
+  height: 50px;
+  align-items: center;
+}
+
+.box12, .box13 {
+  background-color: lightblue;
+}
+
+.flexbox6 {
+  border-color: rgb(194, 194, 194);
+  border-style: solid;
+  border-width: 0.5px;
+  border-radius: 6px;
+  margin-top: 20px;
+  font-family: Arial;
+  width: 330px;
+}
+
+.horizontalbox1, .horizontalbox2, .horizontalbox3 {
+  margin-left: 13px;
+  margin-right: 13px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.horizontalbox1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.horizontalbox2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.horizontalbox3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.fourteen, .three, .five {
+  background-color: rgb(15, 115, 255);
+  border: none;
+  color: white;
+  font-weight: bold;
+  border-radius: 16px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+.flexbox7 {
+  max-width: 350px;
+  width: 100%;
+  font-family: Arial;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.horibox1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+
+.guoba-info {
+  display: flex;
+  flex-direction: column;
+  margin-left: 14px;
+  margin-bottom: 6px;
+}
+
+.guoba {
+  width: 55px;
+  border-radius: 50%;
+}
+
+.guoba-button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  margin-left: auto;
+}
+
+.follow {
+  background-color: rgb(33, 136, 253);
+  color: white;
+  font-weight: bold;
+  border: none;
+  font-size: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 12px;
+  padding-right: 12px;
+  border-radius: 5px;
+}
+
+.guoba-name {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.guoba-desc1, .guoba-desc2 {
+  line-height: 18px;
+  font-size: 14px;
+  color: gray;
+}
+
+.flexbox8 {
+  background-color: rgb(112, 65, 169);
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  color: white;
+  font-family: Arial;
+  max-width: 700px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.home {
+  font-weight: bold;
+}
+
+.searchinput {
+  width: 400px;
+  padding-left: 18px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-radius: 20px;
+  border: none;
+}
+
+.downloadbut {
+  font-size: 14px;
+  background-color: transparent;
+  border-color: white;
+  border-style: solid;
+  border-width: 1px;
+  color: white;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-radius: 4px;
+}
+
+.flexbox9 {
+  margin-top: 30px;
+  display: flex;
+}
+
+.element1 {
+  background-color: lightpink;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.element1text {
+  font-size: 16px;
+  background-color: black;
+  color: white;
+}
+
+.element2 {
+  background-color: lightblue;
+  width: 200px;
+}
+
+.flexbox10 {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  height: 60px;
+}
+
+.leftbox1 {
+  background-color: lightpink;
+  width: 100px;
+  display: flex;
+}
+
+.rightbox1 {
+  background-color: lightblue;
+  width: 200px;
+}
+
+.row1 {
+  display: flex;
+  flex-direction: row;
+}
+
+.row2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.rightbox2text2, .rightbox2text1 {
+  background-color: black;
+  color: white;
+}
+
+.flexbox11 {
+  width: 400px;
+  font-family: Arial;
+  display: block;
+  margin-top: 40px;
+  margin-left: 40px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 2px;
+  padding-bottom: 5px;
+  box-shadow: 1px 1px 5px rgb(177, 177, 177), 
+  -0.5px -0.5px 1px rgb(226, 226, 226);
+}
+
+.firstrow {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 20px;
+  line-height: 1.4;
+}
+
+.firstline {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.description2 {
+  font-size: 14px;
+  color: gray;
+}
+
+.guobapic {
+  height: 45px;
+  display: flex;
+  border-radius: 50%;
+}
+
+.firstrow-content {
+  display: flex;
+  flex-direction: column;
+  margin-left: 12px;
+  flex: 1;
+}
+
+.guobachili {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.time { 
+  font-size: 14px;
+  color: gray;
+}
+
+.allinboxes {
+  font-size: 14px;
+  color: gray;
+}
+
+.flexbox12 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 40px;
+}
+
+.pfp-area, .grayside {
+  width: 48px;
+  min-width: 48px;
+  max-width: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px; 
+}
+
+.rowtop {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.rowfirst {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 10px; 
+}
+
+.rowfirst,
+.descside {
+  flex: 1;
+}
+
+.guobaillus {
+  height: 40px; 
+  border-radius: 50%;
+}
+
+

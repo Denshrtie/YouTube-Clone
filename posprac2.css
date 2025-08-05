@@ -1,0 +1,62 @@
+body {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+.sidebar1 {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 90px;
+  background-color: rgb(42, 46, 47);
+}
+
+.discordicon1 {
+  margin-top: 20px;
+  width: 64px;
+  border-radius: 50%;
+}
+
+.discordicon2, .discordicon3 {
+  width: 64px;
+  margin-top: 10px;
+  border-radius: 50%;
+}
+
+.sidebar2 {
+  font-family: Arial;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  top: 0;
+  bottom: 0;
+  left: 90px;
+  padding-top: 22px;
+  padding-left: 18px;
+  background-color: rgb(59, 62, 66);
+  width: 200px;
+}
+
+.text1 {
+  color: rgb(227, 227, 227);
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.text2 {
+  color: rgb(162, 162, 162);
+  margin-bottom: 20px;
+}
+
+.plus {
+  margin-right: 20px;
+  color: gray;
+  font-size: 30px;
+  margin-top: -8px;
+}

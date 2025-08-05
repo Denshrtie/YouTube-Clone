@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Youtube.com Clone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" 
+    rel="stylesheet">
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/video.css">
+    <link rel="stylesheet" href="styles/sidebar.css">
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="left-section">
+        <img class="hamburger-menu" src="icons/hamburger-menu.svg">
+        <img class="youtube-logo" src="icons/youtube-logo.svg">
+      </div>
+      <div class="middle-section">
+        <input class="search-bar" type="text" placeholder="Search">
+        <button class="search-button">
+          <img class="search-icon" src="icons/search.svg">
+          <div class="tooltip">Search</div>
+        </button>
+        <button class="voice-search-button">
+          <img class="voice-search-icon" src="icons/voice-search-icon.svg">
+          <div class="tooltip">Search with your voice</div>
+        </button>
+      </div>
+      <div class="right-section">
+        <div class="upload-icon-container">
+          <img class="upload-icon" src="icons/upload.svg">
+          <div class="tooltip">Create</div>
+        </div>
+        <div class="youtube-apps-container">
+          <img class="youtube-apps-icon" src="icons/youtube-apps.svg">
+          <div class="tooltip">YouTube apps</div>
+        </div>
+        <div class="notifications-icon-container">
+          <img class="notifications-icon" src="icons/notifications.svg">
+          <div class="notifications-count">3</div>
+          <div class="tooltip">Notifications</div>
+        </div>
+        <img class="current-user-picture" src="channel-pictures/kafka.png">
+      </div>
+    </header>
+
+    <nav class="sidebar">
+      <div class="sidebar-link">
+        <img src="icons/home.svg">
+        <div>Home</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/explore.svg">
+        <div>Explore</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/subscriptions.svg">
+        <div>Subscriptions</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/originals.svg">
+        <div>Originals</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/youtube-music.svg">
+        <div>YouTube Music</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/library.svg">
+        <div>Library</div>
+      </div>
+    </nav>
+
+    <main>
+      <section class="video-grid">
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=n2RNcPRtAiY&t=1s">
+              <img class ="thumbnail" src="thumbnails/thumbnail-1.webp">
+              <div class="video-time">14:20</div>
+            </a>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@mkbhd">
+                <img class="profile-picture" src="channel-pictures/channel-1.jpeg">
+              </a>
+            </div>
+            <div class="video-info">
+              <a href="https://www.youtube.com/watch?v=n2RNcPRtAiY&t=1s">
+                <p class="video-title">Talking Tech and AI with Google CEO Sundar Pichai!</p>
+              </a>
+              <a href="https://www.youtube.com/@mkbhd">
+                <p class="video-author">Marques Brownlee</p>
+              </a>
+              
+              <p class="video-stats">3.4M views <b>&middot;</b> 6 months ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=mP0RAo9SKZk">
+              <img class ="thumbnail" src="thumbnails/thumbnail-2.webp">
+              <div class="video-time">8:22</div>
+            </a>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@markiplier">
+                <img class="profile-picture" src="channel-pictures/channel-2.jpeg">
+              </a>
+            </div>
+            <div class="video-info">
+              <a href="https://www.youtube.com/watch?v=mP0RAo9SKZk">
+                <p class="video-title">Try Not To Laugh Challenge #9</p>
+              </a>
+              <a href="https://www.youtube.com/@markiplier">
+                <p class="video-author">Markiplier</p>
+              </a>
+              <p class="video-stats">19M views <b>&middot;</b> 4 years ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=FgjPQQeTh1w">
+              <img class ="thumbnail" src="thumbnails/thumbnail-3.webp">
+              <div class="video-time">9:13</div>
+            </a>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@SSSniperWolf/featured">
+                <img class="profile-picture" src="channel-pictures/channel-3.jpeg">
+              </a>
+            </div>
+            <div class="video-info">
+              <a href="https://www.youtube.com/watch?v=FgjPQQeTh1w">
+                <p class="video-title">Crazy Tik Toks Taken Moments Before DISASTER</p>
+              </a>
+              <a href="https://www.youtube.com/@SSSniperWolf/featured">
+                <p class="video-author">SSSniper Wolf</p>
+              </a>
+              <p class="video-stats">12M views <b>&middot;</b> 1 year ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=094y1Z2wpJg">
+              <img class ="thumbnail" src="thumbnails/thumbnail-4.webp">
+            <div class="video-time">22:09</div>
+            </a>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@veritasium">
+                <img class="profile-picture" src="channel-pictures/channel-4.jpeg">
+              </a>
+            </div>
+            <div class="video-info">
+              <a href="https://www.youtube.com/watch?v=094y1Z2wpJg">
+                <p class="video-title">The Simplest Math Problem No One Can Solve - Collatz Conjecture</p>
+              </a>
+              <a href="https://www.youtube.com/@veritasium">
+                <p class="video-author">Veritasium</p>
+              </a>
+              <p class="video-stats">18M views <b>&middot;</b> 4 months ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=86CQq3pKSUw">
+              <img class ="thumbnail" src="thumbnails/thumbnail-5.webp">
+              <div class="video-time">11:17</div>
+            </a>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@CSDojo">
+                <img class="profile-picture" src="channel-pictures/channel-5.jpeg">
+              </a>
+            </div>
+            <div class="video-info">
+              <a href="https://www.youtube.com/watch?v=86CQq3pKSUw">
+                <p class="video-title">Kadane's Algorithm to Maximum Sum Subarray Problem</p>
+              </a>
+              <a href="https://www.youtube.com/@CSDojo">
+                <p class="video-author">CS Dojo</p>
+              </a>
+              <p class="video-stats">519k views <b>&middot;</b> 5 years ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=yXWw0_UfSFg">
+              <img class ="thumbnail" src="thumbnails/thumbnail-6.webp">
+              <div class="video-time">19:59</div>
+            </a>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@MrBeast/videos">
+                <img class="profile-picture" src="channel-pictures/channel-6.jpeg">
+              </a>
+            </div>
+            <div class="video-info">
+              <a href="https://www.youtube.com/watch?v=yXWw0_UfSFg">
+                <p class="video-title">Anything You Can Fit In The Circle I'll Pay For</p>
+              </a>
+              <a href="https://www.youtube.com/@MrBeast/videos">
+                <p class="video-author">MrBeast</p>
+              </a>
+              <p class="video-stats">141M views <b>&middot;</b> 1 year ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=nCZbZyyuHRg">
+              <img class ="thumbnail" src="thumbnails/thumbnail-7.avif">
+              <div class="video-time">4:19</div>
+            </a>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@eraysona">
+                <img class="profile-picture" src="channel-pictures/channel-7.jpg">
+              </a>
+            </div>
+            <div class="video-info">
+              <a href="https://www.youtube.com/watch?v=nCZbZyyuHRg">
+                <p class="video-title">How to Learn Coding FAST And Make Cool Stuff</p>
+              </a>
+              <a href="https://www.youtube.com/@eraysona">
+                <p class="video-author">Eray Sona</p>
+              </a>
+              <p class="video-stats">223K views <b>&middot;</b> 1 month ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=BJ2NvjS7Aio">
+              <img class ="thumbnail" src="thumbnails/thumbnail-8.avif">
+              <div class="video-time">6:36</div>
+            </a>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@lauriexwang">
+                <img class="profile-picture" src="channel-pictures/channel-8.jpg">
+              </a>
+            </div>
+            <div class="video-info">
+              <a href="https://www.youtube.com/watch?v=BJ2NvjS7Aio">
+                <p class="video-title">Give me 7 minutes and I'll DELETE your fear of failure</p>
+              </a>
+              <a href="https://www.youtube.com/@lauriexwang">
+                <p class="video-author">Laurie Wang</p>
+              </a>
+              <p class="video-stats">764K views <b>&middot;</b> 5 months ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=6oAVk0yuE1o">
+              <img class ="thumbnail" src="thumbnails/thumbnail-9.avif">
+              <div class="video-time">11:54</div>
+            </a>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@EntryLevelJobsAi">
+                <img class="profile-picture" src="channel-pictures/channel-9.jpg">
+              </a>
+            </div>
+            <div class="video-info">
+              <a href="https://www.youtube.com/watch?v=6oAVk0yuE1o">
+                <p class="video-title">Web Developer Portfolio - 9.5/10 (Front End, React)</p>
+              </a>
+              <a href="https://www.youtube.com/@EntryLevelJobsAi">
+                <p class="video-author">EntryLevelJobs ai</p>
+              </a>
+              <p class="video-stats">27K views <b>&middot;</b> 7 months ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=DaUT0zgBDkU">
+              <img class ="thumbnail" src="thumbnails/thumbnail-10.avif">
+              <div class="video-time">0:51</div>
+            </a>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@miirandaa1">
+                <img class="profile-picture" src="channel-pictures/channel-10.jpg">
+              </a>
+            </div>
+            <div class="video-info">
+              <a href="https://www.youtube.com/watch?v=DaUT0zgBDkU">
+                <p class="video-title">puppy gets shy after I kiss her on the head</p>
+              </a>
+              <a href="https://www.youtube.com/@miirandaa1">
+                <p class="video-author">miranda</p>
+              </a>
+              <p class="video-stats">4M views <b>&middot;</b> 1 year ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=xB3ZmUH6GqU&t=435s">
+              <img class ="thumbnail" src="thumbnails/thumbnail-11.avif">
+              <div class="video-time">12:32</div>
+            </a>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@catherinelijs">
+                <img class="profile-picture" src="channel-pictures/channel-11.jpg">
+              </a>
+            </div>
+            <div class="video-info">
+              <a href="https://www.youtube.com/watch?v=xB3ZmUH6GqU&t=435s">
+                <p class="video-title">How to Learn JavaScript FAST in 2025</p>
+              </a>
+              <a href="https://www.youtube.com/@catherinelijs">
+                <p class="video-author">Catherine Li</p>
+              </a>
+              <p class="video-stats">112K views <b>&middot;</b> 4 months ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=fw95zS4vPEQ">
+              <img class ="thumbnail" src="thumbnails/thumbnail-12.avif">
+              <div class="video-time">10:58</div>
+            </a>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@webdevelopete">
+                <img class="profile-picture" src="channel-pictures/channel-12.jpg">
+              </a>
+            </div>
+            <div class="video-info">
+              <a href="https://www.youtube.com/watch?v=fw95zS4vPEQ">
+                <p class="video-title">If I Had to Start Over in 2025, Here's EXACTLY What I'd Do</p>
+              </a>
+              <a href="https://www.youtube.com/@webdevelopete">
+                <p class="video-author">Web Developete</p>
+              </a>
+              <p class="video-stats">15K views <b>&middot;</b> 13 days ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=_0noaNi051k">
+              <img class ="thumbnail" src="thumbnails/thumbnail-13.avif">
+              <div class="video-time">10:17:33</div>
+            </a>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@codercoderbuilds">
+                <img class="profile-picture" src="channel-pictures/channel-13.jpg">
+              </a>
+            </div>
+            <div class="video-info">
+              <a href="https://www.youtube.com/watch?v=_0noaNi051k">
+                <p class="video-title">Build a Startup Landing Page with HTML, CSS, & JS</p>
+              </a>
+              <a href="https://www.youtube.com/@codercoderbuilds">
+                <p class="video-author">Code Coder Builds</p>
+              </a>
+              <p class="video-stats">10K views <b>&middot;</b> 9 days ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=mNhJySal1uo&t=4291s">
+              <img class ="thumbnail" src="thumbnails/thumbnail-14.avif">
+              <div class="video-time">1:26:47</div>
+            </a>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@codewithharsh_">
+                <img class="profile-picture" src="channel-pictures/channel-14.jpg">
+              </a>
+            </div>
+            <div class="video-info">
+              <a href="https://www.youtube.com/watch?v=mNhJySal1uo&t=4291s">
+                <p class="video-title">Notes App in HTML CSS & JavaScript | Part - 1</p>
+              </a>
+              <a href="https://www.youtube.com/@codewithharsh_">
+                <p class="video-author">Code With Harsh</p>
+              </a>
+              <p class="video-stats">45 views <b>&middot;</b> 1 day ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=RURwSY7mktQ&t=36s">
+              <img class ="thumbnail" src="thumbnails/thumbnail-15.avif">
+              <div class="video-time">4:43</div>
+            </a>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@codehead01">
+                <img class="profile-picture" src="channel-pictures/channel-15.jpg">
+              </a>
+            </div>
+            <div class="video-info">
+              <a href="https://www.youtube.com/watch?v=RURwSY7mktQ&t=36s">
+                <p class="video-title">How to REALLY Get Into Web Development</p>
+              </a>
+              <a href="https://www.youtube.com/@codehead01">
+                <p class="video-author">CodeHead</p>
+              </a>
+              <p class="video-stats">32K views <b>&middot;</b> 12 days ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=ZTFcn5rbBFg">
+              <img class ="thumbnail" src="thumbnails/thumbnail-16.avif">
+              <div class="video-time">5:21</div>
+            </a>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@simpleactuallyus">
+                <img class="profile-picture" src="channel-pictures/channel-16.jpg">
+              </a>
+            </div>
+            <div class="video-info">
+              <a href="https://www.youtube.com/watch?v=ZTFcn5rbBFg">
+                <p class="video-title">How to STUDY so FAST that it feels ILLEGAL</p>
+              </a>
+              <a href="https://www.youtube.com/@simpleactuallyus">
+                <p class="video-author">simple. actually</p>
+              </a>
+              <p class="video-stats">1.2M views <b>&middot;</b> 5 months ago</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
